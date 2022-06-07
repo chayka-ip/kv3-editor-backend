@@ -1,0 +1,139 @@
+{
+    "header": "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->",
+    "graph_root": {
+        "name": "graph_root",
+        "value": [
+            {
+                "name": "boolValue",
+                "value": "false",
+                "data_type": "bool",
+                "comments": []
+            },
+            {
+                "name": "intValue",
+                "value": 128.0,
+                "data_type": "double",
+                "comments": []
+            },
+            {
+                "name": "doubleValue",
+                "value": 64.0,
+                "data_type": "double",
+                "comments": []
+            },
+            {
+                "name": "stringValue",
+                "value": "hello world",
+                "data_type": "str",
+                "comments": []
+            },
+            {
+                "name": "stringThatIsAResourceReference",
+                "value": "resource:\"particles/items3_fx/star_emblem.vpcf",
+                "data_type": "str_flag",
+                "comments": []
+            },
+            {
+                "name": "multiLineStringValue",
+                "value": "First line of a multi-line string literal.\n         Second line of a multi-line string literal.",
+                "data_type": "str_multiline",
+                "comments": []
+            },
+            {
+                "name": "arrayValue",
+                "value": [
+                    {
+                        "name": null,
+                        "value": 1.0,
+                        "data_type": "double",
+                        "comments": []
+                    },
+                    {
+                        "name": null,
+                        "value": 2.0,
+                        "data_type": "double",
+                        "comments": []
+                    }
+                ],
+                "data_type": "array",
+                "comments": []
+            },
+            {
+                "name": "arrayWithSingleValue",
+                "value": [
+                    {
+                        "name": null,
+                        "value": "somestring",
+                        "data_type": "str",
+                        "comments": []
+                    }
+                ],
+                "data_type": "array",
+                "comments": []
+            },
+            {
+                "name": "arrayWithObject",
+                "value": [
+                    {
+                        "name": "objectValue",
+                        "value": [
+                            {
+                                "name": "prop",
+                                "value": "mmwachsaaay",
+                                "data_type": "str",
+                                "comments": []
+                            }
+                        ],
+                        "data_type": "object",
+                        "comments": []
+                    },
+                    {
+                        "name": "objectValue2",
+                        "value": [
+                            {
+                                "name": "prop",
+                                "value": "babe",
+                                "data_type": "str",
+                                "comments": []
+                            }
+                        ],
+                        "data_type": "object",
+                        "comments": []
+                    }
+                ],
+                "data_type": "array",
+                "comments": []
+            },
+            {
+                "name": "objectValue",
+                "value": [
+                    {
+                        "name": "n",
+                        "value": 5.0,
+                        "data_type": "double",
+                        "comments": []
+                    },
+                    {
+                        "name": "s",
+                        "value": "foo",
+                        "data_type": "str",
+                        "comments": []
+                    }
+                ],
+                "data_type": "object",
+                "comments": [
+                    {
+                        "value": "single line comment (related to objectValue)",
+                        "data_type": "comment_inline"
+                    },
+                    {
+                        "value": "multi\n \tline\n \tcomment  (related to objectValue)",
+                        "data_type": "comment_multi"
+                    }
+                ]
+            }
+        ],
+        "data_type": "object",
+        "comments": []
+    }
+}

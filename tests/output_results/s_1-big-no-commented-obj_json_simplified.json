@@ -1,0 +1,319 @@
+{
+    "header": "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->",
+    "graph_root": {
+        "name": "graph_root",
+        "data_type": "object",
+        "value": [
+            {
+                "name": "type",
+                "value": "selector"
+            },
+            {
+                "name": "children",
+                "data_type": "array",
+                "value": [
+                    {
+                        "data_type": "object",
+                        "value": [
+                            {
+                                "name": "type",
+                                "value": "condition_is_equal"
+                            },
+                            {
+                                "name": "source",
+                                "value": "GroupId"
+                            },
+                            {
+                                "name": "destination",
+                                "value": "'CoverSmoke'"
+                            },
+                            {
+                                "name": "auto_look_adjust",
+                                "value": 0.0
+                            },
+                            {
+                                "name": "test_bool",
+                                "value": "false"
+                            },
+                            {
+                                "name": "children",
+                                "data_type": "array",
+                                "value": [
+                                    {
+                                        "data_type": "object",
+                                        "value": [
+                                            {
+                                                "name": "type",
+                                                "value": "decorator_run_once"
+                                            },
+                                            {
+                                                "name": "max_attempts",
+                                                "value": 3.0
+                                            },
+                                            {
+                                                "name": "children",
+                                                "data_type": "array",
+                                                "value": [
+                                                    {
+                                                        "data_type": "object",
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "sequencer"
+                                                            },
+                                                            {
+                                                                "name": "children",
+                                                                "data_type": "array",
+                                                                "value": [
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "decorator_succeed"
+                                                                            },
+                                                                            {
+                                                                                "name": "children",
+                                                                                "data_type": "array",
+                                                                                "value": [
+                                                                                    {
+                                                                                        "data_type": "object",
+                                                                                        "value": [
+                                                                                            {
+                                                                                                "name": "type",
+                                                                                                "value": "decorator_run_once"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "children",
+                                                                                                "data_type": "array",
+                                                                                                "value": [
+                                                                                                    {
+                                                                                                        "data_type": "object",
+                                                                                                        "value": [
+                                                                                                            {
+                                                                                                                "name": "type",
+                                                                                                                "value": "action_acquire_items"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "name": "items",
+                                                                                                                "data_type": "array",
+                                                                                                                "value": [
+                                                                                                                    {
+                                                                                                                        "value": "weapon_smokegrenade"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "name": "remove_all_items",
+                                                                                                                "value": 0.0
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "decorator_succeed"
+                                                                            },
+                                                                            {
+                                                                                "name": "children",
+                                                                                "data_type": "array",
+                                                                                "value": [
+                                                                                    {
+                                                                                        "data_type": "object",
+                                                                                        "value": [
+                                                                                            {
+                                                                                                "name": "type",
+                                                                                                "value": "decorator_run_once"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "children",
+                                                                                                "data_type": "array",
+                                                                                                "value": [
+                                                                                                    {
+                                                                                                        "data_type": "object",
+                                                                                                        "value": [
+                                                                                                            {
+                                                                                                                "name": "type",
+                                                                                                                "value": "action_teleport"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "name": "destination",
+                                                                                                                "value": "-687.782104 -247.933701 57.275341"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_move_to"
+                                                                            },
+                                                                            {
+                                                                                "name": "destination",
+                                                                                "value": "-687.782104 -247.933701 57.275341"
+                                                                            },
+                                                                            {
+                                                                                "name": "movement_type",
+                                                                                "value": "BT_ACTION_MOVETO_RUN"
+                                                                            },
+                                                                            {
+                                                                                "name": "route_type",
+                                                                                "value": "BT_ACTION_MOVETO_FASTEST_ROUTE"
+                                                                            },
+                                                                            {
+                                                                                "name": "auto_look_adjust",
+                                                                                "value": 1.0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_wait"
+                                                                            },
+                                                                            {
+                                                                                "name": "wait_time_min",
+                                                                                "value": 1.0
+                                                                            },
+                                                                            {
+                                                                                "name": "wait_time_max",
+                                                                                "value": 1.0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_look_at"
+                                                                            },
+                                                                            {
+                                                                                "name": "input_angles",
+                                                                                "value": "-51.902771 128.124359 0.000000"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_equip_weapon"
+                                                                            },
+                                                                            {
+                                                                                "name": "weapon",
+                                                                                "value": "weapon_smokegrenade"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_wait"
+                                                                            },
+                                                                            {
+                                                                                "name": "wait_time_min",
+                                                                                "value": 1.5
+                                                                            },
+                                                                            {
+                                                                                "name": "wait_time_max",
+                                                                                "value": 1.5
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_pull_trigger"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_wait"
+                                                                            },
+                                                                            {
+                                                                                "name": "wait_time_min",
+                                                                                "value": 0.5
+                                                                            },
+                                                                            {
+                                                                                "name": "wait_time_max",
+                                                                                "value": 0.5
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data_type": "object",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_move_to"
+                                                                            },
+                                                                            {
+                                                                                "name": "destination",
+                                                                                "value": "-1363.622070 324.910339 87.031250"
+                                                                            },
+                                                                            {
+                                                                                "name": "movement_type",
+                                                                                "value": "BT_ACTION_MOVETO_RUN"
+                                                                            },
+                                                                            {
+                                                                                "name": "route_type",
+                                                                                "value": "BT_ACTION_MOVETO_FASTEST_ROUTE"
+                                                                            },
+                                                                            {
+                                                                                "name": "auto_look_adjust",
+                                                                                "value": 0.0
+                                                                            },
+                                                                            {
+                                                                                "name": "damaging_areas_penalty_cost",
+                                                                                "value": 0.0
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

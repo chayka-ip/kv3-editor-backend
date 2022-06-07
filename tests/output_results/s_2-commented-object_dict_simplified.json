@@ -1,0 +1,67 @@
+{
+    "header": "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->",
+    "graph_root": {
+        "name": "graph_root",
+        "value": [
+            {
+                "name": "type",
+                "value": "selector123",
+                "data_type": "str",
+                "comments": []
+            },
+            {
+                "name": "children",
+                "value": [
+                    {
+                        "name": null,
+                        "value": [
+                            {
+                                "name": "type",
+                                "value": "parallel",
+                                "data_type": "str",
+                                "comments": []
+                            }
+                        ],
+                        "data_type": "object",
+                        "comments": [
+                            {
+                                "value": "ML Comment in child item",
+                                "data_type": "comment_multi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": null,
+                        "value": [
+                            {
+                                "name": "type",
+                                "value": "action_pull_trigger",
+                                "data_type": "str",
+                                "comments": []
+                            }
+                        ],
+                        "data_type": "object",
+                        "comments": [
+                            {
+                                "value": "{",
+                                "data_type": "comment_multi"
+                            },
+                            {
+                                "value": "type = \"action_wait\"",
+                                "data_type": "comment_multi"
+                            },
+                            {
+                                "value": "},",
+                                "data_type": "comment_multi"
+                            }
+                        ]
+                    }
+                ],
+                "data_type": "array",
+                "comments": []
+            }
+        ],
+        "data_type": "object",
+        "comments": []
+    }
+}

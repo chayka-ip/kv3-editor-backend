@@ -1,0 +1,6 @@
+child_key = 'child'
+children_key = 'children'
+parallel_key = 'parallel'
+selector_key = 'selector'
+sequencer_key = 'sequencer'
+type_key = 'type'

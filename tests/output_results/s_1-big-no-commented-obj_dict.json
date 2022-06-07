@@ -1,0 +1,408 @@
+{
+    "header": "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->",
+    "graph_root": {
+        "name": "graph_root",
+        "value": [
+            {
+                "name": "type",
+                "value": "selector",
+                "data_type": "str",
+                "comments": []
+            },
+            {
+                "name": "children",
+                "value": [
+                    {
+                        "name": null,
+                        "value": [
+                            {
+                                "name": "type",
+                                "value": "condition_is_equal",
+                                "data_type": "str",
+                                "comments": []
+                            },
+                            {
+                                "name": "source",
+                                "value": "GroupId",
+                                "data_type": "str",
+                                "comments": []
+                            },
+                            {
+                                "name": "destination",
+                                "value": "'CoverSmoke'",
+                                "data_type": "str",
+                                "comments": []
+                            },
+                            {
+                                "name": "auto_look_adjust",
+                                "value": 0.0,
+                                "data_type": "double",
+                                "comments": []
+                            },
+                            {
+                                "name": "test_bool",
+                                "value": "false",
+                                "data_type": "bool",
+                                "comments": []
+                            },
+                            {
+                                "name": "child",
+                                "value": [
+                                    {
+                                        "name": "type",
+                                        "value": "decorator_run_once",
+                                        "data_type": "str",
+                                        "comments": []
+                                    },
+                                    {
+                                        "name": "max_attempts",
+                                        "value": 3.0,
+                                        "data_type": "double",
+                                        "comments": []
+                                    },
+                                    {
+                                        "name": "child",
+                                        "value": [
+                                            {
+                                                "name": "type",
+                                                "value": "sequencer",
+                                                "data_type": "str",
+                                                "comments": []
+                                            },
+                                            {
+                                                "name": "children",
+                                                "value": [
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "decorator_succeed",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "child",
+                                                                "value": [
+                                                                    {
+                                                                        "name": "type",
+                                                                        "value": "decorator_run_once",
+                                                                        "data_type": "str",
+                                                                        "comments": []
+                                                                    },
+                                                                    {
+                                                                        "name": "child",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_acquire_items",
+                                                                                "data_type": "str",
+                                                                                "comments": []
+                                                                            },
+                                                                            {
+                                                                                "name": "items",
+                                                                                "value": [
+                                                                                    {
+                                                                                        "name": null,
+                                                                                        "value": "weapon_smokegrenade",
+                                                                                        "data_type": "str",
+                                                                                        "comments": []
+                                                                                    }
+                                                                                ],
+                                                                                "data_type": "array",
+                                                                                "comments": []
+                                                                            },
+                                                                            {
+                                                                                "name": "remove_all_items",
+                                                                                "value": 0.0,
+                                                                                "data_type": "double",
+                                                                                "comments": []
+                                                                            }
+                                                                        ],
+                                                                        "data_type": "object",
+                                                                        "comments": []
+                                                                    }
+                                                                ],
+                                                                "data_type": "object",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "decorator_succeed",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "child",
+                                                                "value": [
+                                                                    {
+                                                                        "name": "type",
+                                                                        "value": "decorator_run_once",
+                                                                        "data_type": "str",
+                                                                        "comments": []
+                                                                    },
+                                                                    {
+                                                                        "name": "child",
+                                                                        "value": [
+                                                                            {
+                                                                                "name": "type",
+                                                                                "value": "action_teleport",
+                                                                                "data_type": "str",
+                                                                                "comments": []
+                                                                            },
+                                                                            {
+                                                                                "name": "destination",
+                                                                                "value": "-687.782104 -247.933701 57.275341",
+                                                                                "data_type": "str",
+                                                                                "comments": []
+                                                                            }
+                                                                        ],
+                                                                        "data_type": "object",
+                                                                        "comments": []
+                                                                    }
+                                                                ],
+                                                                "data_type": "object",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_move_to",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "destination",
+                                                                "value": "-687.782104 -247.933701 57.275341",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "movement_type",
+                                                                "value": "BT_ACTION_MOVETO_RUN",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "route_type",
+                                                                "value": "BT_ACTION_MOVETO_FASTEST_ROUTE",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "auto_look_adjust",
+                                                                "value": 1.0,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_wait",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "wait_time_min",
+                                                                "value": 1.0,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "wait_time_max",
+                                                                "value": 1.0,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_look_at",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "input_angles",
+                                                                "value": "-51.902771 128.124359 0.000000",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_equip_weapon",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "weapon",
+                                                                "value": "weapon_smokegrenade",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_wait",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "wait_time_min",
+                                                                "value": 1.5,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "wait_time_max",
+                                                                "value": 1.5,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_pull_trigger",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_wait",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "wait_time_min",
+                                                                "value": 0.5,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "wait_time_max",
+                                                                "value": 0.5,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    },
+                                                    {
+                                                        "name": null,
+                                                        "value": [
+                                                            {
+                                                                "name": "type",
+                                                                "value": "action_move_to",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "destination",
+                                                                "value": "-1363.622070 324.910339 87.031250",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "movement_type",
+                                                                "value": "BT_ACTION_MOVETO_RUN",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "route_type",
+                                                                "value": "BT_ACTION_MOVETO_FASTEST_ROUTE",
+                                                                "data_type": "str",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "auto_look_adjust",
+                                                                "value": 0.0,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            },
+                                                            {
+                                                                "name": "damaging_areas_penalty_cost",
+                                                                "value": 0.0,
+                                                                "data_type": "double",
+                                                                "comments": []
+                                                            }
+                                                        ],
+                                                        "data_type": "object",
+                                                        "comments": []
+                                                    }
+                                                ],
+                                                "data_type": "array",
+                                                "comments": []
+                                            }
+                                        ],
+                                        "data_type": "object",
+                                        "comments": []
+                                    }
+                                ],
+                                "data_type": "object",
+                                "comments": []
+                            }
+                        ],
+                        "data_type": "object",
+                        "comments": []
+                    }
+                ],
+                "data_type": "array",
+                "comments": []
+            }
+        ],
+        "data_type": "object",
+        "comments": []
+    }
+}
