@@ -2,16 +2,17 @@
 
 Main purpouse of the project is to simplify editing KV3 files which are used for different tasks in videogames developed by Valve (AI scripting, cutscenes, etc...).
 We provide:
-	- GUI to work with nested structures
-	- Editing node data
-	- Commenting of nodes
-	- Import(export) from(to) KV3 file format 
+- GUI to work with nested structures
+- Editing node data
+- Commenting of nodes
+- Import(export) from(to) KV3 file format 
 
 
-Hosted on: L https://kv3-editor-frontend.herokuapp.com/
+Hosted on: https://kv3-editor-frontend.herokuapp.com/
 
 Sever might be sleeping, so please, wait a bit and update the page.
-NB. The final visual style was supposed to be designed by a friend of mine, but he didn't do it (: 
+
+N.B. The final visual style was supposed to be designed by a friend of mine, but he didn't do it (: 
 
 # Usage
 
