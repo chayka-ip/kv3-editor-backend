@@ -1,0 +1,7 @@
+/.idea
+/venv
+*.pycache
+*.pyc
+*/*/kv3_scripts
+*/*/my_out
+test_parser.py
