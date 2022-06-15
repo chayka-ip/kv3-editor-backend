@@ -16,7 +16,7 @@ N.B. The final visual style was supposed to be designed by a friend of mine, but
 
 # Usage
 
- - Upload valid KV3 file or create new one by adding New Node 
+ - Upload valid KV3 file (check "example" folder) or create new one by adding New Node 
  - Nodes must be connected. Use mouse dragging between blue and cyan pins
  - Edit data in the left window ("name" field must be filled)
  - Use Arrange button to marshall all nodes by hierarchy
